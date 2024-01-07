@@ -5,6 +5,9 @@
    font-family: 'Merriweather', serif; */
 }
 
+a {
+    text-decoration: none;
+}
 
 .container {
     max-width: 1500px;
@@ -233,6 +236,82 @@ section {
 
 /* New offer  section End */
 
+/* 50% sell section start */
+
+.offer_detail {
+    text-align: center;
+    /* background: url("../images/Rectangle\ 2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: bottom; */
+}
+
+.offer_detail h4 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer_detail h2 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.holiday_style {
+    color: #F00;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday_des {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 0px 200px;
+}
+
+.image_showcase{
+    height: 600px;
+    /* align-items: center; */
+    /* background: #000; */
+   
+}
+.left_image{
+    width: 70%;
+}
+.right_image{
+    width: 30%;
+    position: relative;
+}
+.right_image img{
+  width: 100%;
+}
+.red_image{
+    display: flex;
+    margin-top: 100px;
+    background: linear-gradient(to bottom, #fff 75%, #ff0000 25%);
+    height: 600px;
+    border-radius: 15px;
+}
+.discount_image{
+    position: absolute;
+    top: 15%;
+    left: -34%;
+    /* top: 0; */
+    /* bottom: 0; */
+}
+
+
+/* 50% sell section End */ 
+
+
 /* portfolio section start */
 .portfolio_main_content {
     display: flex;
@@ -319,7 +398,8 @@ section {
 
 .address address,
 .contact p,
-a, .footer_copyright p {
+a,
+.footer_copyright p {
     color: #FFF;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
@@ -331,12 +411,19 @@ a, .footer_copyright p {
     text-align: center;
 }
 
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
 .footer_social_icon>img {
     width: 64px;
     height: 64px;
     margin-right: 24px;
 }
-.footer_copyright{
+
+.footer_copyright {
     margin-top: 98px;
     display: flex;
     justify-content: space-between;
