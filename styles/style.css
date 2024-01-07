@@ -177,6 +177,7 @@ section {
 
 /* party Entry section End */
 
+/* New offer  section Start */
 .new_coming_offer_main_content {
     display: flex;
     gap: 24px;
@@ -188,14 +189,16 @@ section {
     padding: 20px;
 }
 
-.new_coming_offer_content .offer {
+/* Used in portfolio also */
+.offer {
     color: #F00;
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
-.new_coming_offer_content .coming_soon {
+/* Used in portfolio also */
+ .coming_soon {
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 48px;
@@ -203,8 +206,8 @@ section {
     text-transform: capitalize;
     margin: 25px 0;
 }
-
-.new_coming_offer_content .offer_des {
+/* Used in portfolio also */
+.offer_des {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -224,4 +227,22 @@ section {
     border: 15px solid #F00;
     border-radius: 50%;
     padding: 30px;
+}
+/* New offer  section End */
+
+/* portfolio section start */
+.portfolio_main_content{
+    display: flex;
+    margin-top: 50px;
+}
+.portfolio_content{
+    width: 33.33%;
+    margin-bottom: 48px;
+}
+.portfolio_content > img{
+    transition: .5s;
+}
+.portfolio_content > img:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+    border-radius: 16px;
 }
