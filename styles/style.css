@@ -198,7 +198,7 @@ section {
 }
 
 /* Used in portfolio also */
- .coming_soon {
+.coming_soon {
     color: #070211;
     font-family: 'Merriweather', serif;
     font-size: 48px;
@@ -206,6 +206,7 @@ section {
     text-transform: capitalize;
     margin: 25px 0;
 }
+
 /* Used in portfolio also */
 .offer_des {
     color: rgba(7, 2, 17, 0.60);
@@ -223,26 +224,120 @@ section {
     font-weight: 700;
     margin-bottom: 30px;
 }
-.new_coming_offer_content .border_image{
+
+.new_coming_offer_content .border_image {
     border: 15px solid #F00;
     border-radius: 50%;
     padding: 30px;
 }
+
 /* New offer  section End */
 
 /* portfolio section start */
-.portfolio_main_content{
+.portfolio_main_content {
     display: flex;
     margin-top: 50px;
 }
-.portfolio_content{
+
+.portfolio_content {
     width: 33.33%;
     margin-bottom: 48px;
 }
-.portfolio_content > img{
+
+.portfolio_content>img {
     transition: .5s;
 }
-.portfolio_content > img:hover{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;   
+
+.portfolio_content>img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 16px;
+}
+
+/* portfolio section End */
+
+/* Form section Start */
+.form {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    height: 600px;
+}
+
+.form_content {
+    text-align: center;
+    padding: 80px 212px;
+}
+
+.form_content .input_field {
+    position: relative;
+    margin-top: 50px;
+}
+
+.form_content .input_field>input {
+    width: 648px;
+    height: 60px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+}
+
+.form_content .input_field>input::placeholder {
+    padding: 25px 30px;
+}
+
+.form_content .input_field>button {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    /* padding: 24px 56px; */
+    width: 210px;
+    text-transform: capitalize;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    height: 60px;
+    position: absolute;
+    right: 215px;
+    border: none;
+    text-align: center;
+}
+
+/* Form section End */
+
+
+/* Footer section start */
+.footer {
+    background: #070211;
+    height: 609px;
+    color: #fff;
+}
+
+.footer_contact_details {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+.address address,
+.contact p,
+a, .footer_copyright p {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer_social_icon {
+    text-align: center;
+}
+
+.footer_social_icon>img {
+    width: 64px;
+    height: 64px;
+    margin-right: 24px;
+}
+.footer_copyright{
+    margin-top: 98px;
+    display: flex;
+    justify-content: space-between;
 }
