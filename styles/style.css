@@ -386,7 +386,7 @@ section {
 /* Footer section start */
 .footer {
     background: #070211;
-    height: 609px;
+    /* height: 609px; */
     color: #fff;
 }
 
@@ -409,6 +409,7 @@ a,
 
 .footer_social_icon {
     text-align: center;
+    padding: 30px 0;
 }
 
 .icon {
@@ -427,4 +428,9 @@ a,
     margin-top: 98px;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 60px;
+}
+.hr_line{
+    background: rgba(27, 27, 27, 0.15);
+    height: 1px;
 }
